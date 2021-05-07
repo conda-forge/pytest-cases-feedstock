@@ -1,5 +1,5 @@
 {% set name = "pytest-cases" %}
-{% set version = "3.4.6" %}
+{% set version = "3.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest-cases-{{ version }}.tar.gz
-  sha256: 06d3a6cf147ca5398913d3b5971f002b9a512aaeea97f002c22745218cd1849f
+  sha256: 42e4cf1bfa695d441542140ddd06fb0d077b4317b537db279aac5e4486d1bd62
 
 build:
   noarch: python

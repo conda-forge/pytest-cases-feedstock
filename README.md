@@ -1,11 +1,11 @@
-About pytest-cases
-==================
+About pytest-cases-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-cases-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/smarie/python-pytest-cases
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-cases-feedstock/blob/main/LICENSE.txt)
 
 Summary: Separate test code from test cases in pytest.
 

@@ -1,7 +1,6 @@
 {% set name = "pytest-cases" %}
 {% set version = "3.8.0" %}
 
-
 package:
   name: {{ name|lower }}
   version: {{ version }}

@@ -19,7 +19,7 @@ requirements:
     - pip
     - pytest-runner
     - python {{ python_min }}
-    - setuptools
+    - setuptools<82
     - setuptools_scm
   run:
     - decopatch >=1.4.8

@@ -1,5 +1,5 @@
 {% set name = "pytest-cases" %}
-{% set version = "3.9.1" %}
+{% set version = "3.10.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: c4e181f1b525c931a318d4812fa8de656c2c8fb77fccf1571ecf0cc5fe8e7f8f
+  sha256: 451f9e3ecd5d2d81a4362c10c441126f5b3d1ae3a7efaf59f60b1fb930df2d69
 
 build:
   noarch: python
@@ -19,6 +19,7 @@ requirements:
     - pip
     - pytest-runner
     - python {{ python_min }}
+    - setuptools <82
     - setuptools_scm
   run:
     - decopatch >=1.4.8
